@@ -8,8 +8,8 @@ print_params(c = [1,2,3])
 
 values_list = [1, 'строка', True]
 print_params(*values_list)
-values_dict = {1,'строка', True}
-print_params(*values_dict)
+values_dict = {'a':123, 'b':1234, 'c':12345}
+print_params(**values_dict)
 
 values_list_2 = [5,'лист']
 print_params(*values_list_2, 42)
